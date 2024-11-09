@@ -74,6 +74,7 @@
             this.newMemeberToolStripMenuItem.Name = "newMemeberToolStripMenuItem";
             this.newMemeberToolStripMenuItem.Size = new System.Drawing.Size(163, 54);
             this.newMemeberToolStripMenuItem.Text = "New Member";
+            this.newMemeberToolStripMenuItem.Click += new System.EventHandler(this.newMemeberToolStripMenuItem_Click);
             // 
             // newStaffToolStripMenuItem
             // 

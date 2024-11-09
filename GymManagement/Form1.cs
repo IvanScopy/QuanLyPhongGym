@@ -38,5 +38,11 @@ namespace GymManagement
         {
             toolStripMenuItem1.Image = Image.FromFile(@"D:\Workspace\LTTQ\Bài tập lớn\Image\gym icons and images\Name-48-50px\img3.jpg");
         }
+
+        private void newMemeberToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            NewMember newMember = new NewMember();
+            newMember.Show();
+        }
     }
 }
